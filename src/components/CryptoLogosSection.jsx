@@ -108,7 +108,7 @@ const CryptoLogosSection = () => {
                 key={i}
                 className={`shrink-0 w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-linear-to-br ${crypto.color} rounded-full flex items-center justify-center text-white font-bold text-2xl sm:text-3xl shadow-lg`}
               >
-                {crypto.emoji}
+                <img src={crypto.emoji} alt={crypto.name} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain" />
               </div>
             ))}
           </motion.div>
@@ -130,7 +130,7 @@ const CryptoLogosSection = () => {
                 key={i}
                 className={`shrink-0 w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-linear-to-br ${crypto.color} rounded-full flex items-center justify-center text-white font-bold text-2xl sm:text-3xl shadow-lg`}
               >
-                {crypto.emoji}
+                <img src={crypto.emoji} alt={crypto.name} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain" />
               </div>
             ))}
           </motion.div>
@@ -152,7 +152,7 @@ const CryptoLogosSection = () => {
                 key={i}
                 className={`shrink-0 w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-linear-to-br ${crypto.color} rounded-full flex items-center justify-center text-white font-bold text-2xl sm:text-3xl shadow-lg`}
               >
-                {crypto.emoji}
+                <img src={crypto.emoji} alt={crypto.name} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain" />
               </div>
             ))}
           </motion.div>
