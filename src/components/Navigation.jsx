@@ -26,7 +26,7 @@ const Navigation = () => {
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} className="text-xl sm:text-2xl font-bold">
-            <img src="../../public/logo.png" alt="BlinkBot Logo" className="h-8 sm:h-10"/>
+            <img src="../../logo.png" alt="BlinkBot Logo" className="h-8 sm:h-10"/>
           </motion.div>
           
           <div className="hidden md:flex items-center gap-6 lg:gap-8">

@@ -59,7 +59,7 @@ const SupportSection = () => {
                 className="bg-gray-50 rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer"
               >
                 <div className="flex items-start gap-4">
-                  <div className="text-3xl sm:text-4xl flex-shrink-0">
+                  <div className="text-3xl sm:text-4xl shrink-0">
                     {option.icon}
                   </div>
                   <div>
@@ -80,23 +80,9 @@ const SupportSection = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="bg-gradient-to-br from-pink-300 to-pink-400 rounded-3xl p-8 sm:p-12 flex items-center justify-center min-h-[400px] sm:min-h-[500px]"
+            className="bg-linear-to-br from-pink-300 to-pink-400 rounded-3xl p-8 sm:p-12 flex items-center justify-center min-h-[400px] sm:min-h-[500px]"
           >
-            {/* Replace with actual illustration */}
-            <div className="text-center">
-              <div className="relative">
-                <div className="text-8xl sm:text-9xl mb-4">🚀</div>
-                <div className="absolute -top-4 -right-8 bg-yellow-300 rounded-full px-6 py-3 rotate-12 shadow-lg">
-                  <span className="text-xl sm:text-2xl font-extrabold text-black">TO THE MOON</span>
-                </div>
-              </div>
-              <div className="text-6xl sm:text-7xl mt-8">👨‍🚀</div>
-              <div className="flex gap-4 justify-center mt-6">
-                <div className="text-4xl">💰</div>
-                <div className="text-4xl">💰</div>
-                <div className="text-4xl">💰</div>
-              </div>
-            </div>
+            <img src="../../f1.png" alt="Support Illustration" className="w-full h-auto max-w-md sm:max-w-lg object-contain" />
           </motion.div>
         </div>
       </div>

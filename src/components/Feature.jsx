@@ -209,7 +209,7 @@ const FeaturesSection = () => {
                   {/* Center icon - Hands with phones */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="bg-white rounded-full p-8 shadow-2xl">
-                      <img src="../../public/automate.png" alt="Hands with Phones" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-contain" />
+                      <img src="../../automate.png" alt="Hands with Phones" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-contain" />
                     </div>
                   </div>
                 </div>

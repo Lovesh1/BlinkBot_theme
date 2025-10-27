@@ -61,7 +61,6 @@ const ApproachScrollSection = () => {
                   </motion.div>
                   <div 
                     className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center text-6xl sm:text-7xl md:text-9xl"
-                    style={{ background: steps[active].bg, boxShadow: `0 20px 60px ${steps[active].bg}40` }}
                   >
                     <img src={steps[active].icon} alt={steps[active].title} className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain" />
                   </div>
