@@ -23,7 +23,7 @@ const HeroSection = () => {
   
   return (
     <div className='flex w-full'>
-      <div className="w-6xl h-96 bg-black my-auto">hello</div>
+      <img src="../../logo_image.png" alt="Hero Image" className="object-cover w-1/3" />
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 pb-20 bg-white">
       <div className="w-full">
         <motion.h1 
